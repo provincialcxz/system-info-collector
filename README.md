@@ -18,7 +18,10 @@ cd system-info-collector/
 
 python -m venv venv
 
+# Windows
 venv\Scripts\activate
+# Unix
+source venv/bin/activate
 
 pip install -r requirements.txt
 
