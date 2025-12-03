@@ -489,8 +489,6 @@ class SystemInfoCollector:
 
 def print_help():
     print("""
-СИСТЕМНЫЙ СБОРЩИК ИНФОРМАЦИИ v1.0
-===================================
 
 ИСПОЛЬЗОВАНИЕ:
   python main.py [ПАРАМЕТРЫ]
@@ -505,8 +503,8 @@ def print_help():
 ПРИМЕРЫ:
   python main.py                      # Краткий отчет (по умолчанию)
   python main.py -v                   # Полный подробный отчет
-  python main.py -o report.txt        # Краткий отчет с сохранением в файл
-  python main.py -v -o full_report.txt # Полный отчет с сохранением в файл
+  python main.py -o res.txt        # Краткий отчет с сохранением в файл
+  python main.py -v -o full_res.txt # Полный отчет с сохранением в файл
   python main.py -q                   # Тихий режим (автосохранение)
 
 АВТОР: System Info Collector Team
