@@ -494,7 +494,7 @@ def print_help():
   python main.py [ПАРАМЕТРЫ]
 
 ПАРАМЕТРЫ:
-  -h, --help            Показать эту справку и выйти
+  -h, --help            Показать эту справку
   -v, --verbose         Полный подробный отчет
   -o ФАЙЛ, --output ФАЙЛ
                         Сохранить отчет в указанный файл
@@ -503,8 +503,8 @@ def print_help():
 ПРИМЕРЫ:
   python main.py                      # Краткий отчет (по умолчанию)
   python main.py -v                   # Полный подробный отчет
-  python main.py -o res.txt        # Краткий отчет с сохранением в файл
-  python main.py -v -o full_res.txt # Полный отчет с сохранением в файл
+  python main.py -o res.txt           # Краткий отчет с сохранением в файл
+  python main.py -v -o full_res.txt   # Полный отчет с сохранением в файл
   python main.py -q                   # Тихий режим (автосохранение)
 
 АВТОР: System Info Collector Team
